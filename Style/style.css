@@ -1,9 +1,10 @@
 p {
-    color: antiquewhite;
+    color: rgb(148, 182, 174);
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 body {
-    background-image: linear-gradient(rgb(97, 2, 97), black);
+    background-image: linear-gradient(rgb(212, 173, 173), black);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -13,3 +14,14 @@ h1,h2,h3,h4,h5,h6 {
 title {
     color: chocolate;
 }
+html {
+    min-height: 100vh;
+}
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333;  /* old IE */
+    background-color: #050000;  /* Modern Browsers */
+  }
+
